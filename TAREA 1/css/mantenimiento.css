@@ -1,0 +1,31 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+body{
+background-color: #fff9f6;
+background-image:  radial-gradient(#000000 0.45px, transparent 0.45px), radial-gradient(#000000 0.45px, #fff9f6 0.45px);
+background-size: 18px 18px;
+background-position: 0 0,9px 9px;
+}
+ table {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+
+  }
+  th,td{
+    border: 3px solid black;
+    border-radius: 28px;
+     border-collapse: collapse
+  }
+.title{
+  font-size:30px ;
+}
+.logo{
+    position: absolute;
+    margin: auto;
+  border: 0px solid green;
+  padding:0x 0px 0px 0px;
+  top: +2%;
+  height: 50px;

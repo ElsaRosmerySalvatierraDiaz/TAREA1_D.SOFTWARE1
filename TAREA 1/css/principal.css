@@ -1,0 +1,221 @@
+a:link {
+text-decoration: none;
+color: white;
+}
+a:visited {
+text-decoration: none;
+color: black;
+}
+a:hover {
+text-decoration: none;
+color: white;
+}
+a:active {
+text-decoration: none;
+}
+
+.slider {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+.slider img  {
+    width: 100%;
+}
+@keyframes cambio{
+    0% {margin-left:0 ;}
+    20%{margin-left:0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+
+}
+.button {
+    background-color: #fff5ff;
+    transition-duration: 0.4s;
+    border: none;
+    border-radius: 12px;
+    padding: 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    color: black;
+}
+.button:hover {
+  background-color:#120907 ;
+color:white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.boton {
+    background-color:#120907;
+    transition-duration: 0.4s;
+    border: none;
+    border-radius: 12px;
+    padding: 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    color:white;
+}
+.boton:hover {
+  background-color: #fff5ff ;
+color:black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.buscar{
+    position: absolute;
+    padding: 5px;
+
+}
+.buscar input{
+   width:0px;
+   height: 40px;
+   padding: 0 20px;
+   font-size: 18px;
+   color:  black;
+   outline: none;
+   border: 1px solid silver;
+   border-radius: 30px;
+   transition: all 0.6s ease;
+
+
+}
+.btn{
+   position: absolute;
+   top:0;
+   right: 0;
+   background: #fff5ff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align:center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+}
+.buscar:hover input{
+   width: 240px;
+}
+.buscar input:focus{
+   width: 240px;
+}
+.buscar{
+    left: 80%;
+}
+.marco{ 
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 15px;
+    padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+
+}
+.tabla{
+   border-spacing: 8px;
+}
+.carrito{
+ position: absolute;
+  left: 76%;
+  top: 2%;
+
+}
+.user{
+  position: absolute;
+  left: 72%;
+  top: 2%;
+}
+.celda { 
+padding: 10px;
+padding-top: 5px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 20px;
+border-collapse: separate;
+font-size: 20px;
+
+
+ }
+.celda li:hover {
+    background-color:#120907 ;
+    color:white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.celda a:link {
+text-decoration: none;
+color: white;
+}
+.celda a:visited {
+text-decoration: none;
+color: black;
+}
+.celda a:hover {
+text-decoration: none;
+color: white;
+}
+.celda a:active {
+text-decoration: none;
+}
+
+}
+.linea {
+ border-top: 1px solid black;
+  height: 2px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
+.centrado{
+    text-align: center;
+}
+.links{
+padding-left: 10%;
+padding-right: 10%;
+  }
+*{font-family:arial;
+}
+.logo-inicio{
+    height: 35px;
+    width: 200px;
+    padding-left:.5%;
+}
+.botones_inciales{
+   padding-left: 21%;
+   height: 50px;
+}
+.fotos{
+    width: 75% ;
+    height: 500px;
+    padding-left: 30%;
+}
+.tabla_pro{
+    width: 85% ;
+    height: 300px;
+     align: center;
+     padding-left: 21%;
+}
